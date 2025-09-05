@@ -42,6 +42,7 @@ This format ensures files are **sorted numerically and are easy to identify** at
 - Formerly known as URI Online Judge.  
 - Large collection of problems, mostly algorithmic and computational.  
 - Great for practicing **problem-solving and algorithmic thinking**.
+
 *Note*: Some solutions to Beecrowd problems may be a bit unpolished, as they were my first attempts at coding. 
 
 ### **HackerRank**
