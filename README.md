@@ -49,6 +49,16 @@ This format ensures files are **sorted numerically and are easy to identify** at
 - Online platform for learning and practicing **programming and algorithms**.  
 - Problems often come with **detailed test cases** and **tutorials**, making it beginner-friendly.  
 
+### **LeetCode**  
+- Grande plataforma de problemas, muito usada para **entrevistas técnicas e coding interviews**.  
+- Foco em **estruturas de dados, algoritmos clássicos e otimização de soluções**.  
+- Ótima para praticar de forma direcionada para **processos seletivos em empresas de tecnologia**.  
+
+### **AtCoder**  
+- Julgador online japonês, voltado para **competições de programação**.  
+- Problemas organizados em **contests regulares**, com forte foco em eficiência.  
+- Excelente para treinar **velocidade, precisão e técnicas avançadas de programação competitiva**.  
+
 ---
 
 💡 **Tip:** Use the folder names and file naming convention to quickly locate problems by number or name.  
