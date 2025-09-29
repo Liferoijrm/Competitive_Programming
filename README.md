@@ -32,32 +32,37 @@ This format ensures files are **sorted numerically and are easy to identify** at
 ### **CSES**
 - The **CSES Problem Set** offers a curated list of competitive programming problems.  
 - Focuses on **data structures, algorithms, and classical programming challenges**.  
-- Widely used for learning and preparing for contests.
+- Widely used for learning and preparing for contests.  
+- [My CSES Account](https://cses.fi/user/361856/)
 
 ### **Codeforces**
 - Popular competitive programming platform with **regular contests**.  
 - Problems range from **easy to extremely challenging**, great for practicing time management and contest skills.
+- [My Codeforces Account](https://codeforces.com/profile/pedroextrer)  
 
 ### **Beecrowd**
 - Formerly known as URI Online Judge.  
 - Large collection of problems, mostly algorithmic and computational.  
-- Great for practicing **problem-solving and algorithmic thinking**.
+- Great for practicing **problem-solving and algorithmic thinking**.  
+- [My Beecrowd Account](https://judge.beecrowd.com/pt/profile/982077)  
 
-*Note*: Some solutions to Beecrowd problems may be a bit unpolished, as they were my first attempts at coding. 
-
-### **HackerRank**
-- Online platform for learning and practicing **programming and algorithms**.  
-- Problems often come with **detailed test cases** and **tutorials**, making it beginner-friendly.  
+*Note*: Some solutions to Beecrowd problems may be a bit unpolished, as they were my first attempts at coding.  
 
 ### **LeetCode**  
 - Large platform of problems, widely used for **technical interviews and coding assessments**.  
 - Focus on **data structures, classical algorithms, and solution optimization**.  
 - Great for practicing in a structured way for **tech company hiring processes**.  
+- [My LeetCode Account](https://leetcode.com/u/Liferoijrm/)  
 
 ### **AtCoder**  
 - Japanese online judge, centered around **programming competitions**.  
 - Problems organized in **regular contests**, with strong emphasis on efficiency.  
-- Excellent for training **speed, accuracy, and advanced competitive programming techniques**.   
+- Excellent for training **speed, accuracy, and advanced competitive programming techniques**.  
+- [My AtCoder Account](https://atcoder.jp/users/pedroextrer) 
+
+### **HackerRank**
+- Online platform for learning and practicing **programming and algorithms**.  
+- Problems often come with **detailed test cases** and **tutorials**, making it beginner-friendly.
 
 ---
 
