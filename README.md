@@ -50,14 +50,14 @@ This format ensures files are **sorted numerically and are easy to identify** at
 - Problems often come with **detailed test cases** and **tutorials**, making it beginner-friendly.  
 
 ### **LeetCode**  
-- Grande plataforma de problemas, muito usada para **entrevistas técnicas e coding interviews**.  
-- Foco em **estruturas de dados, algoritmos clássicos e otimização de soluções**.  
-- Ótima para praticar de forma direcionada para **processos seletivos em empresas de tecnologia**.  
+- Large platform of problems, widely used for **technical interviews and coding assessments**.  
+- Focus on **data structures, classical algorithms, and solution optimization**.  
+- Great for practicing in a structured way for **tech company hiring processes**.  
 
 ### **AtCoder**  
-- Julgador online japonês, voltado para **competições de programação**.  
-- Problemas organizados em **contests regulares**, com forte foco em eficiência.  
-- Excelente para treinar **velocidade, precisão e técnicas avançadas de programação competitiva**.  
+- Japanese online judge, centered around **programming competitions**.  
+- Problems organized in **regular contests**, with strong emphasis on efficiency.  
+- Excellent for training **speed, accuracy, and advanced competitive programming techniques**.   
 
 ---
 
