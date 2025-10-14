@@ -60,7 +60,7 @@ int main() {
         for(ll u = 1; u <= n; u++){
             if(!isAdjacent(graph1[i], u)){
                 graph2[i].push_back(u);
-                graph2[i].push_back(u);
+                graph2[u].push_back(i);
             }
         }
     }
