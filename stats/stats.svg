@@ -1,69 +1,63 @@
 <svg width="700" height="300" viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg">
   <style>
     .bg { fill: #282a36; rx: 14; }
-    .title {
-      fill: #f8f8f2;
-      font-size: 20px;
-      font-weight: bold;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    .text {
-      fill: #f8f8f2;
-      font-size: 14px;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    .accent { fill: #bd93f9; font-weight: bold; }
+    .title { fill: #bd93f9; font: bold 22px 'Segoe UI', Ubuntu, Sans-Serif; }
+    .text { fill: #f8f8f2; font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; }
+    .total-label { fill: #6272a4; font: bold 12px 'Segoe UI', Ubuntu, Sans-Serif; text-transform: uppercase; }
+    .total-val { fill: #f8f8f2; font: bold 28px 'Segoe UI', Ubuntu, Sans-Serif; }
     .line { stroke: #44475a; stroke-width: 1; }
+    .platform-name { fill: #f8f8f2; font: 400 14px 'Segoe UI', Ubuntu, Sans-Serif; }
+    .platform-count { fill: #6272a4; font: bold 14px 'Segoe UI', Ubuntu, Sans-Serif; }
   </style>
 
-  <!-- Background -->
-  <rect class="bg" x="0" y="0" width="700" height="300" rx="14"/>
+  <rect class="bg" width="700" height="300" />
+  
+  <text x="30" y="45" class="title">Competitive Programming Stats</text>
+  <text x="30" y="80" class="total-label">Total Solved</text>
+  <text x="30" y="110" class="total-val">260</text>
+  <line x1="30" y1="130" x2="320" y2="130" class="line"/>
 
-  <!-- Title -->
-  <text x="20" y="35" class="title">📊 Estatísticas</text>
+  <g transform="translate(30, 160)">
+    <circle r="5" cx="5" cy="0" fill="#8be9fd"/>
+    <text x="20" y="5" class="platform-name">Codeforces <tspan class="platform-count">65</tspan></text>
+    
+    <circle r="5" cx="5" cy="30" fill="#50fa7b"/>
+    <text x="20" y="35" class="platform-name">CSES <tspan class="platform-count">25</tspan></text>
+    
+    <circle r="5" cx="5" cy="60" fill="#ff79c6"/>
+    <text x="20" y="65" class="platform-name">Beecrowd <tspan class="platform-count">158</tspan></text>
+    
+    <circle r="5" cx="160" cy="0" fill="#bd93f9"/>
+    <text x="175" y="5" class="platform-name">AtCoder <tspan class="platform-count">1</tspan></text>
+    
+    <circle r="5" cx="160" cy="30" fill="#f1fa8c"/>
+    <text x="175" y="35" class="platform-name">HackerRank <tspan class="platform-count">10</tspan></text>
+    
+    <circle r="5" cx="160" cy="60" fill="#ffb86c"/>
+    <text x="175" y="65" class="platform-name">LeetCode <tspan class="platform-count">1</tspan></text>
+  </g>
 
-  <!-- Total -->
-  <text x="20" y="70" class="text">
-    <tspan class="accent">Total:</tspan> 260
-  </text>
+  <g transform="translate(520, 150)">
+    <circle r="80" fill="transparent" stroke="#44475a" stroke-width="25"/>
+    
+    <circle r="80" fill="transparent" stroke="#8be9fd" stroke-width="25"
+      stroke-dasharray="125.66 502.65" transform="rotate(-90)" stroke-linecap="round"/>
+      
+    <circle r="80" fill="transparent" stroke="#50fa7b" stroke-width="25"
+      stroke-dasharray="45.23 502.65" transform="rotate(0)" stroke-linecap="round"/>
 
-  <line x1="20" y1="85" x2="340" y2="85" class="line"/>
+    <circle r="80" fill="transparent" stroke="#ff79c6" stroke-width="25"
+      stroke-dasharray="301.59 502.65" transform="rotate(32.40)" stroke-linecap="round"/>
 
-  <!-- Platform counts -->
-  <text x="20" y="115" class="text">Codeforces: 65</text>
-  <text x="20" y="140" class="text">CSES: 25</text>
-  <text x="20" y="165" class="text">Beecrowd: 158</text>
-  <text x="20" y="190" class="text">AtCoder: 1</text>
-  <text x="20" y="215" class="text">HackerRank: 10</text>
-  <text x="20" y="240" class="text">LeetCode: 1</text>
+    <circle r="80" fill="transparent" stroke="#bd93f9" stroke-width="25"
+      stroke-dasharray="0 502.65" transform="rotate(248.40)" stroke-linecap="round"/>
 
-  <!-- Pie chart -->
-  <g transform="translate(520,150)">
-    <!-- Base circle -->
-    <circle r="70" fill="#44475a"/>
+    <circle r="80" fill="transparent" stroke="#f1fa8c" stroke-width="25"
+      stroke-dasharray="15.07 502.65" transform="rotate(248.40)" stroke-linecap="round"/>
 
-    <circle r="70" fill="transparent" stroke="#8be9fd" stroke-width="140"
-      stroke-dasharray="109.95 439.82"
-      transform="rotate(-90)"/>
-
-    <circle r="70" fill="transparent" stroke="#50fa7b" stroke-width="140"
-      stroke-dasharray="39.58 439.82"
-      transform="rotate(0)"/>
-
-    <circle r="70" fill="transparent" stroke="#ff79c6" stroke-width="140"
-      stroke-dasharray="263.89 439.82"
-      transform="rotate(32.40)"/>
-
-    <circle r="70" fill="transparent" stroke="#bd93f9" stroke-width="140"
-      stroke-dasharray="0 439.82"
-      transform="rotate(248.40)"/>
-
-    <circle r="70" fill="transparent" stroke="#f1fa8c" stroke-width="140"
-      stroke-dasharray="13.19 439.82"
-      transform="rotate(248.40)"/>
-
-    <circle r="70" fill="transparent" stroke="#ffb86c" stroke-width="140"
-      stroke-dasharray="0 439.82"
-      transform="rotate(259.20)"/>
+    <circle r="80" fill="transparent" stroke="#ffb86c" stroke-width="25"
+      stroke-dasharray="0 502.65" transform="rotate(259.20)" stroke-linecap="round"/>
+      
+    <text text-anchor="middle" dy="7" class="total-label" style="fill: #6272a4; font-size: 10px;">SOLVED</text>
   </g>
 </svg>
