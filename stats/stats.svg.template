@@ -1,8 +1,17 @@
 <svg width="700" height="300" viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg">
   <style>
     .bg { fill: #282a36; rx: 14; }
-    .title { fill: #f8f8f2; font-size: 20px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; }
-    .text { fill: #f8f8f2; font-size: 14px; font-family: Arial, Helvetica, sans-serif; }
+    .title {
+      fill: #f8f8f2;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .text {
+      fill: #f8f8f2;
+      font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
     .accent { fill: #bd93f9; font-weight: bold; }
     .line { stroke: #44475a; stroke-width: 1; }
   </style>
@@ -34,27 +43,27 @@
     <circle r="70" fill="#44475a"/>
 
     <circle r="70" fill="transparent" stroke="#8be9fd" stroke-width="140"
-      stroke-dasharray="{{A_CF}} {{360-A_CF}}"
+      stroke-dasharray="{{A_CF}} {{C_CF}}"
       transform="rotate({{R_CF}})"/>
 
     <circle r="70" fill="transparent" stroke="#50fa7b" stroke-width="140"
-      stroke-dasharray="{{A_CSES}} {{360-A_CSES}}"
+      stroke-dasharray="{{A_CSES}} {{C_CSES}}"
       transform="rotate({{R_CSES}})"/>
 
     <circle r="70" fill="transparent" stroke="#ff79c6" stroke-width="140"
-      stroke-dasharray="{{A_BEE}} {{360-A_BEE}}"
+      stroke-dasharray="{{A_BEE}} {{C_BEE}}"
       transform="rotate({{R_BEE}})"/>
 
     <circle r="70" fill="transparent" stroke="#bd93f9" stroke-width="140"
-      stroke-dasharray="{{A_AT}} {{360-A_AT}}"
+      stroke-dasharray="{{A_AT}} {{C_AT}}"
       transform="rotate({{R_AT}})"/>
 
     <circle r="70" fill="transparent" stroke="#f1fa8c" stroke-width="140"
-      stroke-dasharray="{{A_HR}} {{360-A_HR}}"
+      stroke-dasharray="{{A_HR}} {{C_HR}}"
       transform="rotate({{R_HR}})"/>
 
     <circle r="70" fill="transparent" stroke="#ffb86c" stroke-width="140"
-      stroke-dasharray="{{A_LC}} {{360-A_LC}}"
+      stroke-dasharray="{{A_LC}} {{C_LC}}"
       transform="rotate({{R_LC}})"/>
   </g>
 </svg>
