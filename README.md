@@ -6,6 +6,12 @@ Each folder corresponds to a different online judge, and all solutions are organ
 
 ---
 
+## 📊 Estatísticas
+
+<img src="stats/stats.svg" width="700"/>
+
+---
+
 ## 📄 File Naming Convention
 
 All solution files follow the format:

@@ -1,0 +1,27 @@
+name: Update statistics badge
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate statistics badge
+        run: |
+          chmod +x scripts/generate_stats.sh
+          scripts/generate_stats.sh
+          envsubst < stats/stats.svg.template > stats/stats.svg
+
+      - name: Commit updated badge
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add stats/stats.svg
+          git commit -m "Update statistics badge" || exit 0
+          git push
