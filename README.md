@@ -6,7 +6,7 @@ Each folder corresponds to a different online judge, and all solutions are organ
 
 ---
 
-## 📊 Estatísticas
+## 📊 Stats
 
 <img src="stats/stats.svg" width="700"/>
 
