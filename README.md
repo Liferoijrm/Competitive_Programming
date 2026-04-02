@@ -66,6 +66,12 @@ This format ensures files are **sorted numerically and are easy to identify** at
 - Excellent for training **speed, accuracy, and advanced competitive programming techniques**.  
 - [My AtCoder Account](https://atcoder.jp/users/pedroextrer) 
 
+### **CodeChef**
+- Global competitive programming platform known for its diverse contest formats, such as **Starters, Cook-Off, and Lunchtime**.
+- Problems cover a wide range of topics, from **basic programming to advanced algorithms and mathematical combinatorics**.
+- Features a **division-based rating system**, allowing for steady progression and challenges tailored to the coder's skill level.
+- [My CodeChef Account](https://www.codechef.com/users/pedroextrer)
+
 ### **HackerRank**
 - Online platform for learning and practicing **programming and algorithms**.  
 - Problems often come with **detailed test cases** and **tutorials**, making it beginner-friendly.
