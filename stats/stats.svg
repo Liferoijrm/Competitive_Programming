@@ -14,7 +14,7 @@
   
   <text x="30" y="45" class="title">Competitive Programming</text>
   <text x="30" y="80" class="total-label">Total Solved</text>
-  <text x="30" y="110" class="total-val">280</text>
+  <text x="30" y="110" class="total-val">281</text>
   <line x1="30" y1="130" x2="320" y2="130" class="line"/>
 
   <g transform="translate(30, 155)">
@@ -28,7 +28,7 @@
       <circle r="6" fill="#ff79c6"/><text x="18" y="5" class="platform-name">Beecrowd <tspan class="platform-count">175</tspan></text>
     </g>
     <g transform="translate(0,90)">
-      <circle r="6" fill="#7b5e4c"/><text x="18" y="5" class="platform-name">CodeChef <tspan class="platform-count">0</tspan></text>
+      <circle r="6" fill="#7b5e4c"/><text x="18" y="5" class="platform-name">CodeChef <tspan class="platform-count">1</tspan></text>
     </g>
     
     <g transform="translate(160,0)">
@@ -49,28 +49,28 @@
     <circle r="80" fill="transparent" stroke="#3b3d4d" stroke-width="25"/>
     
     <circle r="80" fill="transparent" stroke="#8be9fd" stroke-width="25"
-      stroke-dasharray="116.69 502.65" transform="rotate(-90)" class="slice"/>
+      stroke-dasharray="116.27 502.65" transform="rotate(-90)" class="slice"/>
       
     <circle r="80" fill="transparent" stroke="#50fa7b" stroke-width="25"
-      stroke-dasharray="44.88 502.65" transform="rotate(-6.73)" class="slice"/>
+      stroke-dasharray="44.72 502.65" transform="rotate(-7.03)" class="slice"/>
 
     <circle r="80" fill="transparent" stroke="#ff79c6" stroke-width="25"
-      stroke-dasharray="314.16 502.65" transform="rotate(25.11)" class="slice"/>
+      stroke-dasharray="313.04 502.65" transform="rotate(24.70)" class="slice"/>
 
     <circle r="80" fill="transparent" stroke="#bd93f9" stroke-width="25"
-      stroke-dasharray="5 502.65" transform="rotate(249.81)" class="slice"/>
+      stroke-dasharray="5 502.65" transform="rotate(248.60)" class="slice"/>
 
     <circle r="80" fill="transparent" stroke="#f1fa8c" stroke-width="25"
-      stroke-dasharray="17.95 502.65" transform="rotate(253.51)" class="slice"/>
+      stroke-dasharray="17.89 502.65" transform="rotate(252.30)" class="slice"/>
 
     <circle r="80" fill="transparent" stroke="#ffb86c" stroke-width="25"
-      stroke-dasharray="7.18 502.65" transform="rotate(266.07)" class="slice"/>
+      stroke-dasharray="7.16 502.65" transform="rotate(264.81)" class="slice"/>
 
     <circle r="80" fill="transparent" stroke="#7b5e4c" stroke-width="25"
-      stroke-dasharray="0.00 502.65" transform="rotate(270.91)" class="slice"/>
+      stroke-dasharray="5 502.65" transform="rotate(269.63)" class="slice"/>
 
     <circle r="80" fill="transparent" stroke="#95a5a6" stroke-width="25"
-      stroke-dasharray="0.00 502.65" transform="rotate(270.61)" class="slice"/>
+      stroke-dasharray="0.00 502.65" transform="rotate(273.33)" class="slice"/>
       
     <text text-anchor="middle" y="0" class="total-label" style="fill: #6272a4; font-size: 11px;">
       <tspan x="0" dy="0">PROGRESS</tspan>
