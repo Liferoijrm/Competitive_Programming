@@ -14,7 +14,7 @@ Each folder corresponds to a different online judge, and all solutions are organ
 
 ## 📄 File Naming Convention
 
-All solution files follow the format:
+All solution files (except for CodeChef's) follow the format:
 
 problemNumber___problemName.fileExtension
 
