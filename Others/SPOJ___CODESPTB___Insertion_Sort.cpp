@@ -6,29 +6,41 @@ using namespace std;
 #define fastio ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
 #define endl '\n'
 
-ll insertionSort(vector<ll>& v){
-    ll count = 0;
-    for(ll i = 1; i < v.size(); i++){
-        ll j = i;
-        while(j > 0 && v[j] < v[j-1]){
-            count++;
-            swap(v[j], v[j-1]);
-            j -= 1;
-        }
+#define N 1000002 // tamanho máximo de um elemento do vetor
+
+void incrementTree(ll i, vector<ll>& tree){
+    while(i < tree.size()){
+        tree[i]++;
+        i += (i & -i); 
     }
-    return count;
+}
+
+ll sum(ll i, vector<ll>& tree){
+    ll ans = 0;
+    while(i > 0){
+        ans+=tree[i];
+        i -= (i & -i);
+    }
+    return ans;
 }
 
 void solve(){
-    ll n;
+
+    // armazena quantos números menores que idx existem 
+    // ou seja, salva a soma da qtd de elementos menores que idx **até o momento**
+    vector<ll> fenwickTree(N, 0); 
+
+    ll n, aux, ans = 0, biggest_yet = 0;
     cin >> n;
 
-    vector<ll> v(n);
+    for(ll i = 0; i < n; i++){
+        cin >> aux;
+        incrementTree(aux, fenwickTree);
+        biggest_yet = max(aux, biggest_yet);
+        ans += sum(biggest_yet, fenwickTree) - sum(aux, fenwickTree);
+    }
 
-    for(ll i = 0; i < n; i++)
-        cin >> v[i];
-
-    cout << insertionSort(v) << endl;
+    cout << ans << endl;
 }
 
 int main(){ fastio;
